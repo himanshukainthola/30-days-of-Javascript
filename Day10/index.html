@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img.unhide {
+            display: block;
+        }
+
+        img.hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="button1">click me</button>
+    <p class="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, possimus?</p>
+
+
+    <img src="https://images.unsplash.com/photo-1721731325736-bc475b90dad5?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="image of sunset" id="img1" class="unhide">
+
+    <div class="element1">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur recusandae quaerat aliquam minima quis
+            suscipit laborum ad dolorum veritatis.
+        </p>
+    </div>
+
+    <input type="text" class="input">
+    <p class="para2"></p>
+    <input type="text" class="input2">
+
+
+
+    <form id="newForm">
+        <label for="username">Enter Username</label><br />
+        <input id="username" type="text" placeholder="Enter Username"
+            style="padding: 15px; margin-top: 10px; margin-bottom: 10px" /><br />
+        <label for="email">Enter Email</label><br />
+        <input id="email" type="text" placeholder="Enter Email"
+            style="padding: 15px; margin-top: 10px; margin-bottom: 10px" /><br />
+        <label for="password">Enter Password</label><br />
+        <input id="password" type="password" placeholder="Enter Password"
+            style="padding: 15px; margin-top: 10px; margin-bottom: 10px" /><br />
+        <button type="submit" id="submitButton" style="padding: 15px; margin-top: 10px">
+            Submit
+        </button>
+    </form>
+
+
+    <select style="margin-top: 10px; padding: 10px" id="tags">
+        <option value="new">New</option>
+        <option value="recommended">Recommended</option>
+        <option value="featured">Featured</option>
+        <option value="popular">Popular</option>
+    </select>
+
+    <p id="selectPara"></p>
+
+    <ul id="newList">
+        <li id="js" value="JavaScript">JavaScript</li>
+        <li id="react" value="ReactJS">ReactJS</li>
+        <li id="ts" value="TypeScript">TypeScript</li>
+        <li id="next" value="NextJS">NextJS</li>
+    </ul>
+
+    <div id="parent">
+        <button type="submit">Button</button>
+    </div>
+    <button id="addButtons">Add Button</button>
+
+
+    <script src="Day10.js"></script>
+</body>
+
+</html>
